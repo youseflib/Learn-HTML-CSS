@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  margin: auto auto;
+  width: 60%;
+  height: 560vh;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  text-align: right;
+}
+
+.body .main-title {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.beginning {
+  padding-top: 1em;
+  padding-right: 1em;
+  font-size: 4em;
+}
+
+.beginning ul {
+  font-size: 35px;
+}
+
+.beginning ul li {
+  padding-top: 1em;
+  cursor: default;
+  width: fit-content;
+}
+
+.beginning ul li:hover {
+  text-decoration: underline;
+}
+
+.video-title {
+  padding-top: 1em;
+  padding-right: 5em;
+  font-size: 0.8em;
+  width: fit-content;
+  transition: 1s;
+}
+
+.video label:hover {
+  transition: 1s ease-in-out;
+  color: #fff;
+  background: red;
+  
+}
+
+.video iframe {
+  padding-top: 1em;
+}
+
+.html {
+  padding-top: 5em;
+  font-size: 0.5em;
+}
+
+.html iframe {
+  padding-top: 5em;
+}
+
+.html iframe:nth-child(2) {
+  padding-top: 10em;
+}
+
+.last {
+  margin-top: 25em;
+  text-align: center;
+}
+
+.last p {
+  font-size: 0.8em;
+}
+
+.finish {
+  padding-top: 1em;
+  text-align: center;
+}
+
+.finish a {
+  text-decoration: none;
+  font-size: 0.6em;
+  background: gray;
+  color: #fff;
+  border-radius: 15px;
+  padding: 15px 15px;
+}
+
+.nxt {
+  text-align: center;
+}
+
+.nxt a {
+  text-decoration: none;
+  font-size: 0.6em;
+  background: gray;
+  color: #fff;
+  border-radius: 15px;
+  padding: 15px 15px;
+}

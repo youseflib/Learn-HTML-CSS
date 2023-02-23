@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('img/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  margin: auto auto;
+  width: 60%;
+  height: 90vh;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  text-align: right;
+}
+
+.prev {
+  padding-top: 2em;
+  padding-right: 2em;
+}
+
+.prev a {
+  text-decoration: none;
+  font-size: 2em;
+  background: gray;
+  color: #fff;
+  border-radius: 15px;
+  padding: 5px 15px;
+}
+
+.body .learn {
+  padding-top: 2em;
+  text-align: center;
+}
+
+.learn {
+  font-size: 3em;
+}
+
+.learn a {
+  text-decoration: none;
+  font-size: 0.6em;
+  background: gray;
+  color: #fff;
+  border-radius: 15px;
+  padding: 15px 15px;
+}
